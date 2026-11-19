@@ -7,16 +7,25 @@
       "chlorine_high": {
         "default": "mdi:pool"
       },
+      "chlorine_instant": {
+        "default": "mdi:pool"
+      },
       "chlorine_low": {
         "default": "mdi:pool"
       },
       "ph_high": {
         "default": "mdi:pool"
       },
+      "ph_instant": {
+        "default": "mdi:pool"
+      },
       "ph_low": {
         "default": "mdi:pool"
       },
       "water_temp": {
+        "default": "mdi:coolant-temperature"
+      },
+      "water_temp_instant": {
         "default": "mdi:coolant-temperature"
       }
     }

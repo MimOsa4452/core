@@ -31,6 +31,9 @@
       "chlorine_high": {
         "name": "Chlorine high"
       },
+      "chlorine_instant": {
+        "name": "Chlorine instant"
+      },
       "chlorine_low": {
         "name": "Chlorine low"
       },
@@ -40,8 +43,14 @@
       "ph_high": {
         "name": "pH high"
       },
+      "ph_instant": {
+        "name": "pH instant"
+      },
       "ph_low": {
         "name": "pH low"
+      },
+      "water_temp_instant": {
+        "name": "Water temperature instant"
       }
     }
   },

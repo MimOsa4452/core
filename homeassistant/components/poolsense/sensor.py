@@ -59,6 +59,22 @@ SENSOR_TYPES: tuple[SensorEntityDescription, ...] = (
         key="pH Low",
         translation_key="ph_low",
     ),
+    SensorEntityDescription(
+        key="Chlorine Instant",
+        translation_key="chlorine_instant",
+        native_unit_of_measurement=UnitOfElectricPotential.MILLIVOLT,
+    ),
+    SensorEntityDescription(
+        key="pH Instant",
+        translation_key="ph_instant",
+        device_class=SensorDeviceClass.PH,
+    ),
+    SensorEntityDescription(
+        key="Water Temp Instant",
+        translation_key="water_temp_instant",
+        native_unit_of_measurement=UnitOfTemperature.CELSIUS,
+        device_class=SensorDeviceClass.TEMPERATURE,
+    ),
 )
 
 
